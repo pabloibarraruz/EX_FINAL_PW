@@ -1,0 +1,30 @@
+/* Estilo para el menú principal */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: #ff00ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.boton:nth-of-type(2) {
+    background-color: #00ff00;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+}
